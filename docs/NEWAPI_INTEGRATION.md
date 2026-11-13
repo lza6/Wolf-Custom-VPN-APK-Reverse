@@ -31,7 +31,7 @@
 | 热更新 | 清单变更**不热加载**（LoadProxies 只在启动/配置变更调用）→ 每天固定时段重启容器 |
 
 **容器内 127.0.0.1 是容器自己的 loopback** — 转换层跑宿主机时三选一：
-1. `extra_hosts: host.docker.internal:host-gateway` + 端口绑 `0.0.0.0`
+1. `extra_hosts: host.docker.internal:host-gateway` + 端口绑 `203.0.113.2`
 2. `network_mode: host`
 3. 转换层进同一 compose 网络
 
@@ -84,8 +84,8 @@ mitmproxy 抓 `CONNECT dexray-...run.app:443` 后的 ws upgrade 请求 → 拿�
 
 ### Hysteria2
 ```
-server: 2.29.150.81;45.115.224.173;34.80.241.88;34.74.229.45;136.110.59.89;
-        8.234.93.248;162.55.219.255;2.29.30.151;46.225.74.32  (UDP CUSTOM 1/2/3)
+server: 203.0.113.14;203.0.113.59;203.0.113.195;203.0.113.134;203.0.113.146;
+        203.0.113.85;203.0.113.193;203.0.113.214;203.0.113.129  (UDP CUSTOM 1/2/3)
 auth:   sandoki:sandoki   obfs: sandok   port: 443/udp
 ```
 mihomo 拨测骨架：
@@ -93,7 +93,7 @@ mihomo 拨测骨架：
 proxies:
   - name: wolf-hy1
     type: hysteria2
-    server: 2.29.150.81
+    server: 203.0.113.14
     port: 443
     password: sandoki
     obfs: sandok
