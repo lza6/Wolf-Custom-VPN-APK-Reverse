@@ -16,7 +16,7 @@
 | ConfigData 明文 | ✅ 2,006,822 字符（frida 主动调 `Libv2ray.do_`） |
 | 字段级解密 | ✅ 2495/2495（100%），`do_` 即万能字段解密器 |
 | 节点资产 | 60 Servers / 44 unique hosts / 5 UUID / trojan+sandoki 凭证 |
-| 真协议拨测 | Trojan `/trojanws` 101 OK；VLESS `/sandok` wss 404（path 待真机确认） |
+| 真协议拨测 | 中国出口 0 节点可用（终判）：Trojan 101 OK 但认证 0x03e8 待调；VLESS 404；vmess 被 CF WAF 挡（目标用户为印尼住宅网络）；Hysteria2 UDP 静默 |
 | new-api 对接 | 文档就绪（docs/NEWAPI_INTEGRATION.md），等 VLESS path 确认后入池 |
 
 ## 快速开始
