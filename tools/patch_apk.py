@@ -108,7 +108,9 @@ def ensure_keystore():
 
 
 def main():
-    src = Path(sys.argv[1] if len(sys.argv) > 1 else 'Wolf-Custom-VPN-v1.11.06.1_modyolo.apk')
+    if len(sys.argv) < 2:
+        raise SystemExit('usage: python patch_apk.py <input.apk> [output.apk]')
+    src = Path(sys.argv[1])
     dst = Path(sys.argv[2] if len(sys.argv) > 2 else src.stem + '_patched.apk')
     rebuild(src, dst)
     aligned = dst.with_suffix('.aligned.apk')
