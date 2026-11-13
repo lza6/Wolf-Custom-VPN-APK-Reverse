@@ -10,7 +10,7 @@
   {
    "Name": "⚡GCP GEMANY⚡💥💰",
    "Flag": "de",
-   "ServerIPHost": "dexray-788537295897.europe-west1.run.app",
+   "ServerIPHost": "dexray-<12digits>.europe-west1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "V2ray",
    "OpenVPNTCPPort": "110",
@@ -38,7 +38,7 @@
   {
    "Name": "⚡GCP FINLAND⚡💥💰",
    "Flag": "fi",
-   "ServerIPHost": "fixray-625913455468.asia-southeast1.run.app",
+   "ServerIPHost": "fixray-<12digits>.asia-southeast1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "V2ray",
    "OpenVPNTCPPort": "110",
@@ -66,7 +66,7 @@
   {
    "Name": "⚡GCP SINGAPORE⚡💥💰",
    "Flag": "sg",
-   "ServerIPHost": "sgxray-552015423555.asia-southeast1.run.app",
+   "ServerIPHost": "sgxray-<12digits>.asia-southeast1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "V2ray",
    "OpenVPNTCPPort": "110",
@@ -94,7 +94,7 @@
   {
    "Name": "⚡GCP INDiA⚡💥💰",
    "Flag": "in",
-   "ServerIPHost": "inxray-782079674395.asia-south1.run.app",
+   "ServerIPHost": "inxray-<12digits>.asia-south1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "V2ray",
    "OpenVPNTCPPort": "110",
@@ -990,7 +990,7 @@
   {
    "Name": "⚡GCP SINGAPORE⚡💰",
    "Flag": "sg",
-   "ServerIPHost": "sgovpn-637833066208.asia-east1.run.app",
+   "ServerIPHost": "sgovpn-<12digits>.asia-east1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "OVPN",
    "OpenVPNTCPPort": "110",
@@ -1018,7 +1018,7 @@
   {
    "Name": "⚡GCP INDIA⚡💰",
    "Flag": "in",
-   "ServerIPHost": "inovpn-817902735532.asia-south1.run.app",
+   "ServerIPHost": "inovpn-<12digits>.asia-south1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "OVPN",
    "OpenVPNTCPPort": "110",
@@ -1046,7 +1046,7 @@
   {
    "Name": "⚡GCP GERMANY⚡💰",
    "Flag": "de",
-   "ServerIPHost": "deovpn-788537295897.europe-west1.run.app",
+   "ServerIPHost": "deovpn-<12digits>.europe-west1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "OVPN",
    "OpenVPNTCPPort": "110",
@@ -1074,7 +1074,7 @@
   {
    "Name": "⚡GCP FINLAND⚡💰",
    "Flag": "fi",
-   "ServerIPHost": "fi-ovpn-788537295897.europe-west1.run.app",
+   "ServerIPHost": "fi-ovpn-<12digits>.europe-west1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "OVPN",
    "OpenVPNTCPPort": "110",
@@ -1102,7 +1102,7 @@
   {
    "Name": "⚡GCP PHILIPPINES⚡💰",
    "Flag": "ph",
-   "ServerIPHost": "usovpn-497146235292.asia-east1.run.app",
+   "ServerIPHost": "usovpn-<12digits>.asia-east1.run.app",
    "ServerType": "GCP",
    "ServerProtocol": "OVPN",
    "OpenVPNTCPPort": "110",

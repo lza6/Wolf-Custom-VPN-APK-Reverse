@@ -80,7 +80,7 @@ MMKV entry 格式：`[klen varint][key][vlen varint][value]`；
 
 | 字段 | 语义 | 实测值示例 |
 |------|------|-----------|
-| `ServerIPHost` | 唯一出口（域名/IP/分号分隔多值） | `dexray-788537295897.europe-west1.run.app` |
+| `ServerIPHost` | 唯一出口（域名/IP/分号分隔多值） | `dexray-<12digits>.europe-west1.run.app` |
 | `ServerType` | profile 类别（匹配 Networks） | GCP / Normal Server / XHTTP / DNS V2ray / CF Worker / Cloudfront / Alibaba / Fastly |
 | `V2rayProtocol` | VLESS / Trojan | |
 | `V2rayUUID` | VLESS id / Trojan user | `12345678-1234-1234-1234567B9o` |

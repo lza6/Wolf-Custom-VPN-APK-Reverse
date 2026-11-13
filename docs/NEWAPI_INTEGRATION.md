@@ -74,7 +74,7 @@ xray outbound 骨架：
 
 ### VLESS-WS-TLS（path 待确认）
 ```
-host:   dexray-788537295897.europe-west1.run.app 等 4 个 run.app + strongteam ×5
+host:   dexray-<12digits>.europe-west1.run.app 等 4 个 run.app + strongteam ×5
 uuid:   12345678-1234-1234-1234567B9o（另有 4 个 UUID 见 samples）
 path:   /sandok ← 服务端 404！真机抓包确认实际 path
 SNI:    两种玩法：①直连真实域名 ②Google.com 域前置（模板原文），Host 头=真实域名
